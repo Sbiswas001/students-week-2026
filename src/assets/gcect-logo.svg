@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="100%" height="100%" rx="12" fill="#fff" stroke="#07263a" stroke-width="2"/>
+  <g transform="translate(12,12)">
+    <circle cx="48" cy="24" r="18" fill="#07263a" />
+    <path d="M48 12c-3 6-2 12 0 18 2-6 3-12 0-18z" fill="#ffd24d"/>
+    <g transform="translate(0,48)">
+      <text x="0" y="16" font-family="Inter, sans-serif" font-size="14" fill="#07263a" font-weight="700">GCECT</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #0f172a;
+  background-color: #f8fafc;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Page background and header styles to match provided design */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(
+      circle at 10% 20%,
+      rgba(59, 130, 246, 0.06),
+      transparent 18%
+    ),
+    radial-gradient(circle at 90% 0%, rgba(2, 6, 23, 0.06), transparent 25%),
+    linear-gradient(180deg, #eef6fb 0%, #f8fafc 40%, #ffffff 100%);
+}
+
+.site-header {
+  background: linear-gradient(90deg, #0b2d48 0%, #071e33 100%);
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.25);
+}
+
+.tab-bar-wrap {
+  position: relative;
+  z-index: 40;
+}
+
+.tab-bar {
+  border-radius: 12px;
+}
+
+.tab-btn-active {
+  background-color: #164c68;
+}
+
+.main-card {
+  border-radius: 14px;
+}
