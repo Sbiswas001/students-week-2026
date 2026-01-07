@@ -1,8 +1,10 @@
 export const eventDetails = {
   "Photography submissions": {
     rules: [
-      "Theme: Life on the street.",
-      "Only one submission per person; no heavy edits allowed.",
+      "Genre: Fine Art Photography ",
+      "Theme: Lights and Shadows",
+      "Deadline: 12th January 2026",
+      "Only two submissions per person; no heavy edits allowed.",
       "Submit images with metadata; include edit screenshots if edited.",
       "Off-topic photos are disqualified; top 3 win.",
     ],
@@ -31,6 +33,9 @@ export const eventDetails = {
   "Quiz competition": {
     rules: [
       "Questions span science, sports, culture, and cinema with mixed difficulty.",
+      "No cellphones are allowed.",
+      "Quiz master's decision is final.",
+      "No help to other teams.",
     ],
     links: [],
   },
@@ -40,6 +45,26 @@ export const eventDetails = {
       "Time limit: 2 minutes total (1:30 speaking + 0:30 conclusion).",
     ],
     links: [],
+  },
+  Debate: {
+    rules: [
+      "Format: Proposition vs Opposition; sides assigned by draw of lots on the spot.",
+      "Structure: single round, or preliminary + final depending on participation count.",
+      "Main speech: up to 5 minutes per speaker.",
+      "Counter-question: one from the opposing side, followed by a single reply up to 2 minutes; no follow-ups or extra time.",
+      "Stick strictly to the given topic; use facts, examples, and logic.",
+      "Personal attacks, offensive language, and political hate speech are prohibited.",
+      "Mobile phones are not allowed during the speech; notes are allowed.",
+      "Languages permitted: English, Bengali, or Hindi.",
+      "Judging (100): Content & Knowledge 30; Logical Reasoning 20; Communication Skills 20; Rebuttal & Presence of Mind 15; Confidence & Body Language 10; Time Management 5.",
+      "Judges' decision is final; no objections will be entertained.",
+    ],
+    links: [
+      {
+        label: "Debate registration form",
+        url: "https://forms.gle/3hgLPs85aYVRt3Su9",
+      },
+    ],
   },
   "Design your dream (fashion designing)": {
     rules: [
@@ -51,23 +76,45 @@ export const eventDetails = {
   },
   "Drawing competition": {
     rules: [
-      "Theme: Smart India Through Technology.",
+      "Theme: Smart India Through Technology",
       "1) Only art paper will be provided by the organizers.",
       "2) Participants must bring all necessary drawing materials such as pencils, erasers, colours, brushes, palette, water container, cloth, etc.",
       "3) Digital art and use of digital devices are strictly prohibited.",
       "4) The artwork must be strictly based on the theme.",
       "5) Use of unfair means or copying will lead to immediate disqualification.",
-      "6) Participants must write their Name, Year, Department, and Roll Number on the back side of the art paper.",
+      "6) Participants must write their Name, Year, Department, and Roll Number on the back of the art paper.",
       "7) The decision of the judges will be final and binding.",
     ],
     links: [],
   },
   "Singing competition": {
     rules: [
-      "Instruments or karaoke allowed.",
-      "Time limit: Solo 5 minutes; Group 8 minutes.",
+      "Up to two vocalists per performance.",
+      "Instrumental-only performances without vocals are allowed.",
+      "Any number of instrumentalists may accompany with prior communication to the vocalists.",
+      "Instrumentalists may support multiple vocalists or groups if they wish.",
+      "Any genre and any language are permitted.",
+      "Karaoke tracks are allowed; submit the karaoke track or song details in the prescribed format before the event.",
+      "No backup singing tracks or pre-recorded vocals are allowed; all vocals/instruments must be performed live except approved karaoke without vocals.",
+      "Maximum performance time: 5 minutes (slight extensions may be tolerated subject to schedule).",
+      "Late arrivals may be disqualified or moved to the end at organiser discretion.",
+      "Sound check time is limited and decided by organisers.",
+      "Provided (on request): microphones, electric/acoustic guitars, bass, cajón (clapbox), synthesizer; bring any additional instruments yourself.",
+      "Performers are responsible for tuning; no excuses for poor performance due to instrument issues.",
+      "Instrumentalists are advised to carry their own instruments if unsure about college gear.",
+      "Evaluation considers track selection, audience enjoyability, confidence, vocal quality, and musical performance.",
+      "No re-performance or restart for personal mistakes.",
+      "Offensive/abusive lyrics or gestures are prohibited.",
+      "Mobile phones not allowed on stage except for approved lyrics/cues.",
+      "Judges may stop a performance for rule violations or technical issues; organisers may modify rules/schedule if required.",
+      "Judges' rankings are final.",
     ],
-    links: [],
+    links: [
+      {
+        label: "Singing competition registration",
+        url: "https://forms.gle/Fu81GHrHPf1jYdtm8",
+      },
+    ],
   },
   "Dance competition": {
     rules: [
@@ -82,6 +129,30 @@ export const eventDetails = {
       },
       { label: "YouTube to mp3 converter", url: "https://ytmp3.la/B0Q9/" },
     ],
+  },
+  "Football Playoffs": {
+    rules: [
+      "League format; each match 6 + 4 rolling substitutions.",
+      "No offside rule applies.",
+      "Two halves of 12 minutes with a 5-minute break.",
+      "Draws decided by penalty shootout; if still tied, winner decided by toss.",
+      "Teams must bring their own jerseys.",
+      "Arrive 30 minutes before each match; delays may result in walkover to the opponent.",
+      "Organizing committee decisions are final.",
+    ],
+    links: [{ label: "Registration Closed"}],
+  },
+  "Football Finals": {
+    rules: [
+      "League format; each match 6 + 4 rolling substitutions.",
+      "No offside rule applies.",
+      "Two halves of 12 minutes with a 5-minute break.",
+      "Draws decided by penalty shootout; if still tied, winner decided by toss.",
+      "Teams must bring their own jerseys.",
+      "Arrive 30 minutes before each match; delays may result in walkover to the opponent.",
+      "Organizing committee decisions are final.",
+    ],
+    links: [{ label: "Registration Closed"}],
   },
   "Rubik's cube speed solving": {
     rules: ["Bring your own cube; standard speed-solving etiquette applies."],
@@ -115,7 +186,7 @@ export const eventDetails = {
     links: [
       {
         label: "Photography submission form",
-        url: "https://forms.gle/2MEH4McofcqrszS77",
+        url: "https://forms.gle/32ZaDpDADe4MvnQ2A",
       },
     ],
   },

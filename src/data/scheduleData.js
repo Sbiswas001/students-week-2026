@@ -89,9 +89,9 @@ export const scheduleData = [
   },
   {
     date: "2026-01-14",
-    start: "11:00",
+    start: "10:30",
     end: "12:00",
-    title: "Design your dream (fashion designing)",
+    title: "Fashion Fantasia",
     poc: "Rahini Ghosh (3rd year, CT)",
     organiser: "Fashionista",
   },
